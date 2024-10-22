@@ -14,7 +14,7 @@ Antes de começar, certifique-se de ter os seguintes pré-requisitos instalados 
 
 - **PHP** (versão 7.4 ou superior) - [Download PHP](https://www.php.net/downloads)
 - **Composer** (para gerenciar dependências do PHP) - [Download Composer](https://getcomposer.org/download/)
-- **MySQL** - [Download MySQL](https://dev.mysql.com/downloads/)
+- **HeideSQL** - [Download HeidiSQL](https://www.heidisql.com/download.php)
 - **Laragon** (para ambiente local) - [Download Laragon](https://laragon.org/download/)
 
 
