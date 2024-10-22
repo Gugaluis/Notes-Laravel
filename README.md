@@ -12,10 +12,13 @@ O **Notes** é um bloco de notas online desenvolvido em Laravel. Com uma interfa
 
 Antes de começar, certifique-se de ter os seguintes pré-requisitos instalados em sua máquina:
 
-- **PHP** (versão 7.4 ou superior) - [Download PHP](https://www.php.net/downloads)
-- **Composer** (para gerenciar dependências do PHP) - [Download Composer](https://getcomposer.org/download/)
+- **PHP** (versão 7.4 ou superior) - [Download PHP](https://www.php.net/downloads) Esse projeto foi feito utilizando a versão 8.2.24
+
+- **Composer** (para gerenciar dependências do PHP) - [Download Composer](https://getcomposer.org/download/)  Não há necessidade de nenhuma alteração na configuração padrão 
+
 - **HeidiSQL** - [Download HeidiSQL](https://www.heidisql.com/download.php)
-- **Laragon** (para ambiente local) - [Download Laragon](https://laragon.org/download/)
+
+- **Laragon** (para ambiente local) - [Download Laragon](https://laragon.org/download/) Não há necessidade de nenhuma alteração na configuração padrão 
 
 
 ## Instalação
@@ -23,6 +26,7 @@ Antes de começar, certifique-se de ter os seguintes pré-requisitos instalados 
 Siga os passos abaixo para configurar o projeto em sua máquina local:
 
 1. **Clone o repositório**
+
    - Abra o terminal e execute:
      ```bash
      git clone https://github.com/Gugaluis/Notes-Laravel.git
@@ -30,12 +34,14 @@ Siga os passos abaixo para configurar o projeto em sua máquina local:
      ```
 
 2. **Instale as dependências com Composer**
+
    - Execute o seguinte comando na pasta do projeto:
      ```bash
      composer install
      ```
 
 3. **Configuração do Ambiente**
+
    - Renomeie o arquivo `.env.example` para `.env`:
      ```bash
      cp .env.example .env
@@ -51,21 +57,25 @@ Siga os passos abaixo para configurar o projeto em sua máquina local:
      ```
 
 4. **Crie o banco de dados**
+
    - Use o HeidiSQL para criar um banco de dados com o nome especificado em `DB_DATABASE`.
 
 5. **Gere a chave de aplicativo**
+
    - Execute o comando a seguir para gerar uma chave única para o aplicativo:
      ```bash
      php artisan key:generate
      ```
 
 6. **Executar as migrações**
+
    - Para criar as tabelas necessárias no banco de dados, execute:
      ```bash
      php artisan migrate
      ```
 
 7. **Inicie o servidor**
+
    - Você pode iniciar o servidor integrado do Laravel com o seguinte comando:
      ```bash
      php artisan serve
@@ -75,9 +85,11 @@ Siga os passos abaixo para configurar o projeto em sua máquina local:
 ## Utilização
 
 1. **Acessando o Aplicativo**
+
    - Abra o navegador e vá para `http://localhost:8000`.
 
 2. **Login**
+
    - Para logar na aplicação você pode usar um dos três usuários já criados.
 
    - Eles são:
@@ -89,11 +101,13 @@ Siga os passos abaixo para configurar o projeto em sua máquina local:
    - Todos os usuários possuem uma senha padrão (abc123456)
 
 3. **Criando Anotações**
+
    - Após o login, você verá a interface principal.
    - Clique em "Nova Nota" para criar uma nova anotação.
    - Preencha o título e o conteúdo da nota e clique em "Salvar".
 
 4. **Editando e Excluindo Anotações**
+
    - Para editar uma nota, clique no ícone de edição ao lado da nota.
    - Para excluir, clique no ícone de exclusão.
 
