@@ -6,17 +6,17 @@ O **Notes** é um bloco de notas online desenvolvido em Laravel. Com uma interfa
 
 ## Imagem do Projeto 📸
 
-![Screenshot do Notes](../Notes/public/assets/images/notes.png)
+![Screenshot do Notes](../Notes-Laravel/public/assets/images/notes.png)
 
 ## Pré-requisitos
 
 Antes de começar, certifique-se de ter os seguintes pré-requisitos instalados em sua máquina:
 
-- **PHP** (versão 7.4 ou superior)
-- **Composer** (para gerenciar dependências do PHP)
-- **Laravel** (versão 8 ou superior)
-- **MySQL** (usando HeidiSQL)
-- **Laragon** (para ambiente local)
+- **PHP** (versão 7.4 ou superior) - [Download PHP](https://www.php.net/downloads)
+- **Composer** (para gerenciar dependências do PHP) - [Download Composer](https://getcomposer.org/download/)
+- **MySQL** - [Download MySQL](https://dev.mysql.com/downloads/)
+- **Laragon** (para ambiente local) - [Download Laragon](https://laragon.org/download/)
+
 
 ## Instalação
 
