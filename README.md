@@ -6,7 +6,7 @@ O **Notes** é um bloco de notas online desenvolvido em Laravel. Com uma interfa
 
 ## Imagem do Projeto 📸
 
-![Screenshot do Notes](../Notes-Laravel/public/assets/images/notes.png)
+![Notas](public/assets/images/notes.png)
 
 ## Pré-requisitos
 
