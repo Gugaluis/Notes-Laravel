@@ -25,7 +25,7 @@ Siga os passos abaixo para configurar o projeto em sua máquina local:
 1. **Clone o repositório**
    - Abra o terminal e execute:
      ```bash
-     git clone https://github.com/seu-usuario/notes.git
+     git clone https://github.com/Gugaluis/Notes-Laravel.git
      cd notes
      ```
 
