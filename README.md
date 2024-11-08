@@ -40,7 +40,11 @@ Siga os passos abaixo para configurar o projeto em sua máquina local:
      composer install
      ```
 
-3. **Configuração do Ambiente**
+3. **Crie o banco de dados**
+
+   - Use o HeidiSQL para criar um banco de dados com o nome que desejar e guarde esse nome para que possa ser reutilizado em `DB_DATABASE`.
+     
+4. **Configuração do Ambiente**
 
    - Renomeie o arquivo `.env.example` para `.env`:
      ```bash
@@ -56,10 +60,6 @@ Siga os passos abaixo para configurar o projeto em sua máquina local:
      DB_PASSWORD=sua_senha
      ```
 
-4. **Crie o banco de dados**
-
-   - Use o HeidiSQL para criar um banco de dados com o nome especificado em `DB_DATABASE`.
-
 5. **Gere a chave de aplicativo**
 
    - Execute o comando a seguir para gerar uma chave única para o aplicativo:
@@ -73,8 +73,14 @@ Siga os passos abaixo para configurar o projeto em sua máquina local:
      ```bash
      php artisan migrate
      ```
+7. **Execute as seeds**
+   
+   - Para criar os dados pré-definidos (usuários e senhas) no banco de dados, execute:
+     ```bash
+     php artisan db:seed UserTableSeeder
+     ```
 
-7. **Inicie o servidor**
+8. **Inicie o servidor**
 
    - Você pode iniciar o servidor integrado do Laravel com o seguinte comando:
      ```bash
