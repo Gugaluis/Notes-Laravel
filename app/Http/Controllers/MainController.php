@@ -12,12 +12,12 @@ class MainController extends Controller
 
     public function index ()
     {
-        //Carrega notas do usuário
+        // Carrega notas do usuário
         $id = session ('user.id');
         $user = User::find ($id) -> toArray ();
         $notes = User::find ($id) ->notes () -> whereNull('deleted_at') -> get () -> toArray();
 
-        //Mostra a vier home
+        // Mostra a vier home
         return view('home', ['notes' => $notes]);
     }
 

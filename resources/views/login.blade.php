@@ -12,7 +12,7 @@
                     <img src="assets/images/logo.png" alt="Notes logo">
                 </div>
 
-                <!-- form -->
+                <!-- Formulario de login -->
                 <div class="row justify-content-center">
                     <div class="col-md-10 col-12">
                         <form action="/loginSubmit" method="post" novalidate>

@@ -16,7 +16,7 @@ class CheckNotLogged
     public function handle(Request $request, Closure $next): Response
     {
 
-        //Checando se o usuário não está logado
+        // Checando se o usuário não está logado
         if(session('user')){
             return redirect('/');
         }

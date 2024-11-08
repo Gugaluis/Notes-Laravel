@@ -8,7 +8,7 @@
 
         @include('top_bar')
 
-            <!-- confirm delete -->
+            <!-- Confirmação de delete -->
             <div class="col card p-5 text-center">
                 <span class="display-3 mb-5"><i class="fa-solid fa-triangle-exclamation text-warning opacity-50"></i></span>
                 <h4 class="text-info mb-3">{{ $note->title }}</h4>
